@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3> Guess a number between 1 - 100.</h3>
+        <input type="text" placeholder=" Enter Number " id="guess-field"/><br/>
+
+        <button onclick="runGuess()" id="guess-btn">Guess !!</button>
+        <p id="num-guesses">Number of Guesses : 0</p>
+        <p id="guessed-num">Guessed number are : none</p>
+        <p id="msg"></p>
+
+        <button onclick="reset()" id="reset-btn">reset ⚠</button>
+    </div>
+    <script src="scipt.js"></script>
+</body>
+</html>
